@@ -1,0 +1,14 @@
+var n1= prompt("ingrese primer numero: ,");
+var n1=parseInt(n1);
+var n2= prompt("ingrese segundo numero: ,");
+var n2=parseInt(n2);
+a = n1+n2;
+b = n1-n2;
+c = n1/n2;
+d = n1*n2;
+e = n1%n2;
+document.write("la suma de los numeros es:",a,'<BR/>');
+document.write("la resta de los numeros es:",b,'<BR/>');
+document.write("la division de los numeros es:",c,'<BR/>');
+document.write("la multiplicacion de los numeros es:",d,'<BR/>');
+document.write("el modulo de los numeros es",e,'<BR/>');
